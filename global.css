@@ -1,0 +1,167 @@
+@media (min-width: 500px) {
+/*insert all the specific styles for a min screen with of 500px*/
+}
+@media (min-width: 700px) {
+    /*insert all the specific styles for a min screen with of 500px*/
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&display=swap');
+/*font awesome*/
+/*cdn = library*/
+/*@import url('https..')*/
+/*body*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("./images/BackgroundCloseup.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: left;
+    background-position-y: top;
+}
+#gradient {
+    background-image: linear-gradient(to top right, rgba(255,0,0,0), rgba(255, 255, 255, 0.46) );
+    background-attachment: fixed;
+    background-position: inherit;
+}
+/*headers*/
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #292929;
+    font-size: 3rem;
+}
+h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+}
+h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    text-align: center;
+    color: #292929;
+}
+h4 {
+    display: inline-block;
+    font-family: 'brandon-grotesque','museo-slab','museo-sans','Museo',Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0px;
+}
+/*paragraphs*/
+p {
+    color: #716a57;
+    font-family: inherit;
+}
+/*hyperlinks*/
+a {
+}
+/*links nested into navigation*/
+.topnavbar {
+    background-color: #879d90;
+    box-shadow: #292929 1px 5px 15px;
+    margin-top: 1rem;
+}
+.topnavbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topnavbar ul li {
+    text-decoration: none;
+}
+.topnavbar ul li.topnavbarlogo {
+    display: flex;
+    list-style: none;
+}
+
+.topnavbar a {
+    font-size: 1em ;
+    font-family: 'brandon-grotesque', 'museo-slab', 'museo-sans', 'Museo', Arial, Helvetica, sans-serif;
+    color: #292929;
+    transition: 0.5s;
+    flex-grow: 1;
+    margin: 0 1rem;
+    padding: 1rem;
+    border-radius: 3px;
+    background-color: #5dab8d;
+    text-decoration: none;
+}
+.topnavbar a:hover {
+    background: #c0adad;
+    border-radius: 3px;
+}
+.topnavbar a:visited {
+    color: #292929;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px;
+}
+li {
+    list-style-type: none;
+}
+
+figure {
+    text-align: center;
+}
+#main {
+    margin: auto;
+}
+.rubriek {
+    display: flex;
+    margin: 20px auto;
+    max-width: 1024px;
+    box-shadow: #292929 1px 5px 15px;
+    overflow: auto;
+    background-color: floralwhite;
+    border-radius: 1.5rem;
+}
+.rubriekleft {
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.rubriekright {
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.rubriek img {
+    aspect-ratio: 1/1;
+    max-width: 450px;
+    width: auto;
+    object-fit: cover;
+}
+.rubriek p {
+    text-align: justify;
+    padding: 2rem;
+
+}
+.footer {
+    background: #f7caca;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.navleft {
+    display: inline-block;
+    width: 30%;
+}
+.navleft li {
+}
+.navmiddle {
+    display: inline-block;
+    width: 30%;
+}
+.navright {
+    display: inline-block;
+    width: 30%;
+}

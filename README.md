@@ -6,12 +6,12 @@
 
 > :exclamation: Houd deze repo 100% up-to-date :exclamation:
 
-| Student         | Info                                                             |
-|:----------------|:-----------------------------------------------------------------|
-| Name            | ...                                                              |
-| email           | [john.doe@example.com](mailto:john.doe@example.com)              |
-| Github Username | ...                                                              |
-| Hosting         | [https://yourdomain.netlify.app](https://yourdomain.netlify.app) |
+| Student         | Info                                                                  |
+|:----------------|:----------------------------------------------------------------------|
+| Name            | Michael Thielemans                                                    |
+| email           | r0939827@student.thomasmore.be(mailto:r0939827@student.thomasmore.be) |
+| Github Username | Michaelthielemans1986...                                              |
+| Hosting         | [https://yourdomain.netlify.app](https://yourdomain.netlify.app)      |
 
 ## Installatie
 
