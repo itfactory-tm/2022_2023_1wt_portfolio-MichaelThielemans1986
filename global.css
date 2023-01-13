@@ -73,10 +73,11 @@ body {
     background-image: url("./images/cake-icon.png");
     transform: rotate(354deg);
     margin-bottom: 8px;
-    background-size: 137px;
+    background-size: 150px;
     background-repeat: no-repeat;
     background-position: top;
     padding-top: 90px;
+    transition: 1s;
 }
 #title h1 {
     font-family: 'Pacifico', cursive;
@@ -287,6 +288,9 @@ ul.middle {
     }
     #title {
         margin-bottom: 1rem;
+        background-size: 100px;
+        padding-top: 75px;
+        transition: 1s;
     }
     #title h2 {
         font-size: 0.7rem;
@@ -320,7 +324,7 @@ ul.middle {
         aspect-ratio: 1/1;
         width: auto;
         object-fit: cover;
-        max-height: 300px;
+        /*max-height: 400px;*/
     }
     .rubriekleft {
         flex-direction: column;
@@ -336,6 +340,15 @@ ul.middle {
     .footer {
         padding: 1rem 0.5rem;
     }
+    .tableprijzen {
+        padding: 0.8rem;
+        width: 100%;
+    }
+    .tableprijzen td {
+        padding: 0.4rem;
+        font-size: 0.5rem;
+    }
+
     .footer h1 {
         font-size: 2rem;
     }
