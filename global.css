@@ -1,17 +1,8 @@
 /*todo*/
 /*list markers*/
 /*print media*/
-/*404 error page*/
 
-@media (min-width: 500px) {
-/*insert all the specific styles for a min screen with of 500px*/
-}
-@media (min-width: 700px) {
-    /*insert all the specific styles for a min screen with of 500px*/
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Varela+Round&family=Nunito+Sans:wght@200&family=Pacifico&family=Roboto:wght@300&display=swap');
-
+/*@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Varela+Round&family=Nunito+Sans:wght@200&family=Pacifico&family=Roboto:wght@300&display=swap');*/
 /*setting starting situation*/
 * {
     margin: 0;
@@ -174,8 +165,16 @@ body {
     width: 90%;
     padding: 5px;
 }
+
 .rubriekcenter ul {
     text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    font-family: 'Varela Round';
 }
 .rubriekcenter ul li {
     margin: 10px;
@@ -255,11 +254,13 @@ body {
 .footernav ul li {
     text-align: left;
     font-family: 'Varela Round', sans-serif;
-    line-height: 1.5rem;
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
 }
 .footernav li img {
     text-align: left;
-    margin: auto;
+    margin-right: 15px;
 }
 ul.middle {
     border-left: rosybrown solid 1px;
@@ -280,7 +281,7 @@ ul.middle {
         font-size: 3rem;
     }
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
     .topnavbar {
         padding-top: 10px;
     }
@@ -360,5 +361,26 @@ ul.middle {
     }
 }
 @media print{
-
+    * {
+        background-image: none;
+    }
+    #title {
+        visibility: hidden;
+        display: none;
+    }
+    .toptitlebar {
+        visibility: hidden;
+        display: none;
+    }
+    .topnavbar {
+        visibility: hidden;
+        display: none;
+    }
+    .footer {
+        visibility: hidden;
+        display: none;
+    }
+    #map {
+        visibility: hidden;
+    }
 }
