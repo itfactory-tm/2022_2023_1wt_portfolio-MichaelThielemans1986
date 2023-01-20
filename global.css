@@ -77,7 +77,6 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     padding-top: 90px;
-    transition: 1s;
 }
 #title h1 {
     font-family: 'Pacifico', cursive;
@@ -166,16 +165,16 @@ body {
     width: 90%;
     padding: 5px;
 }
-
 .rubriekcenter ul {
     text-align: center;
     margin: 20px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: flex-start;
     font-family: 'Varela Round';
+    align-content: flex-start;
 }
 .rubriekcenter ul li {
     margin: 10px;
@@ -290,7 +289,6 @@ ul.middle {
         margin-bottom: 1rem;
         background-size: 100px;
         padding-top: 75px;
-        transition: 1s;
     }
     #title h2 {
         font-size: 0.7rem;
@@ -388,6 +386,15 @@ ul.middle {
     .topnavbar {
         visibility: hidden;
         display: none;
+    }
+    .rubriek {
+        display: flex;
+        margin: 60px auto;
+        max-width: 1024px;
+    }
+    .rubriek img {
+        display: none;
+        visibility: hidden;
     }
     .footer {
         visibility: hidden;
