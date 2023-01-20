@@ -167,16 +167,17 @@ body {
     padding: 5px;
 }
 .rubriekcenter ul {
-    text-align: center;
+    text-align: left;
     margin: 20px;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: flex-start;
     font-family: 'Varela Round';
     align-content: flex-start;
 }
+
 .rubriekcenter ul li {
     margin: 10px;
 }
@@ -339,6 +340,17 @@ ul.middle {
     }
     .rubriek p {
         font-size: 0.8rem;
+    }
+    .rubriekcenter ul {
+        text-align: left;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        font-family: 'Varela Round';
+        align-content: center;
     }
     .footer {
         padding: 1rem 0.5rem;
