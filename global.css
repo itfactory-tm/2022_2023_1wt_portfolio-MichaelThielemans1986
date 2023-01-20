@@ -67,7 +67,7 @@ body {
     padding-top: 10px;
     padding-bottom: 1px;
     position: relative;
-    z-index: 1;
+    z-index: 100;
 }
 #title {
     background-image: url("./images/cake-icon.png");
@@ -102,6 +102,7 @@ body {
     padding-bottom: 20px;
     position: sticky;
     top: 0px;
+    z-index: 10;
 }
 .topnavbar a {
     text-decoration: none;
@@ -232,7 +233,11 @@ body {
     box-shadow: #c0adad 2px 2px 3px 1px;
     max-height: 300px;
     border-radius: 1rem;
-    border: #fdc2be solid 5px;
+    border: #fdc2be solid 2px;
+}
+.fotogalery img:hover {
+    scale: 110%;
+    transition: 1s;
 }
 .footer {
     background: #ffe4e4;
@@ -273,7 +278,7 @@ ul.middle {
     width: 100%;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 700px) {
     .footernav ul li {
         font-size: 0.7rem;
     }
@@ -281,7 +286,7 @@ ul.middle {
         font-size: 3rem;
     }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
     .topnavbar {
         padding-top: 10px;
     }
