@@ -112,6 +112,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0px;
 }
 .topnavbar ul li {
     text-decoration: none;
@@ -121,7 +122,7 @@ body {
     font-size: 1em;
     font-family: 'Nunito Sans';
     color: #292929;
-    transition: 0.75s;
+    transition: border-radius 1s, background 2.5s;
     flex-grow: 1;
     margin: 0 0.5rem;
     padding: 0.75rem;
@@ -235,10 +236,10 @@ body {
     max-height: 300px;
     border-radius: 1rem;
     border: #fdc2be solid 2px;
+    transition: 1s;
 }
 .fotogalery img:hover {
     scale: 110%;
-    transition: 1s;
 }
 .footer {
     background: #ffe4e4;
@@ -280,6 +281,14 @@ ul.middle {
 }
 
 @media only screen and (max-width: 700px) {
+    .topnavbar ul li a {
+        font-size: 1rem;
+        /*transition: 0.5s;*/
+        flex-grow: 1;
+        margin: 0 0.3rem;
+        padding: 0.4rem;
+        text-decoration: none;
+    }
     .footernav ul li {
         font-size: 0.7rem;
     }
@@ -310,8 +319,8 @@ ul.middle {
         color: #292929;
         transition: 0.5s;
         flex-grow: 1;
-        margin: 0 0.5rem;
-        padding: 0.5rem;
+        margin: 0 0.1rem;
+        padding: 0.4rem;
         text-decoration: none;
     }
     .rubriek {

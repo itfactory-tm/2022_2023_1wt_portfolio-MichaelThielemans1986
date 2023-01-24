@@ -9,12 +9,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon16.png">
-    <title>Assortiment</title>
-    <link rel="stylesheet" href="global.css">
+    <title>t'Vlaaihuisje: Over ons</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Nunito+Sans:wght@200&family=Pacifico&family=Roboto:wght@300&family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="global.css">
 </head>
+
+
 <body>
 <div id='gradient'>
     <div id="toptitlebar">
@@ -40,43 +43,34 @@
         <div class="rubriek">
             <div class="rubriekcenter">
                 <h3>
-                    Ons Assortiment
+                    Please sign in
                 </h3>
-                <ul>
-                    <li><h3>Taarten:</h3>
-                        <ul>
-                            <li>Fruit</li>
-                            <li>Chocolade</li>
-                            <li>Limburgse taarten</li>
-                            <li>Krieken</li>
-                            <li>Pruim latjes</li>
-                            <li>Abrikoos latjes</li>
-                            <li>Kaastaart</li>
-                            <li>Flan</li>
-                            <li>Rijsttaart</li>
-                            <li>Aardbei taart</li>
-                            <li>Banaan brésilienne</li>
-                            <li>Carré frangipane</li>
-                            <li>Appelcrumble</li>
-                        </ul>
-                    </li>
-                    <li><h3>Mini gebakjes:</h3>
-                        <ul>
-                            <li>Javanais</li>
-                            <li>Vanille cake</li>
-                            <li>Rode Bessen cake</li>
-                            <li>Chocolade cake</li>
-                            <li>Appel cake</li>
-                            <li>Slagroomgebakjes met fruit</li>
-                            <li>Chocolade mousse</li>
-                            <li>Bavarois</li>
-                            <li>Mini éclair</li>
-                            <li>Eendjes</li>
-                        </ul>
-                    </li>
-            </ul>
-                </div>
+                <main class="form-signin w-100 m-auto">
+                    <form>
+
+
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+
+                        <div class="checkbox mb-3">
+                            <label>
+                                <input type="checkbox" value="remember-me"> Remember me
+                            </label>
+                        </div>
+                        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+                        <p class="mt-5 mb-3 text-muted">&copy; 2022-2023</p>
+                    </form>
+                </main>
+            </div>
         </div>
+
+
     </main>
 
     <footer class="footer">
